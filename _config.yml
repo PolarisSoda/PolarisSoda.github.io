@@ -24,9 +24,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@domain.com
-author: GitHub User
+title: 밤하늘의 빛나는 북극성처럼
+email: urin6695@naver.com
+author: PolarisSoda
 
 # Copyright setting
 # You can use any html code, currently below placeholders are available:
@@ -73,7 +73,7 @@ yat:
 # sitemap: false
 
 # If you want to change site language, you can set lang option
-# lang: "en"  # default lang is en
+lang: "ko"  # default lang is en
 
 # Translate languges
 # langs refer to https://cloud.google.com/translate/docs/languages
@@ -160,11 +160,11 @@ yat:
 #   - about.md
 
 # Page default value
-# defaults:
-#   home:
-#     heading: "Your awesome heading"
-#     subheading: "Your awesome subheading"
-#     banner: "Your image url"
+defaults:
+  home:
+    heading: "이것저것 연습하는 블로그"
+    subheading: "PS and Other Interests"
+    banner: "Your image url"
 
 # Banner default settings
 # These banner settings are for global banner default, but you can also
@@ -183,12 +183,12 @@ yat:
 #   subheading_style: null  # Custom subheading style (e.g. color: gold)
 
 # Excerpt settings
-# excerpt:
-#   default_image: /assets/images/default-image.jpeg  # Default image when the image style is not none
-#   image_style: z          # Image layout style (It's value could be none, left, right, top, z, z-reverse)
-#   image_width: 38.2%      # Image default width
-#   image_height: 160px     # Image default height
-#   text_size: 350          # Words default size
+excerpt:
+  default_image: /assets/images/default-image.jpeg  # Default image when the image style is not none
+  image_style: none       # Image layout style (It's value could be none, left, right, top, z, z-reverse)
+  image_width: 38.2%      # Image default width
+  image_height: 160px     # Image default height
+  text_size: 350          # Words default size
 
 # Pagination setting
 # paginate: 5
